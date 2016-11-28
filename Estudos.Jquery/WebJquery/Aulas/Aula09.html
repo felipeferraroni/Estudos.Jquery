@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Aula 07</title>
+    <script type="text/javascript" src="../Scripts/jquery-3.1.1.js"></script>
+
+    <script type="text/javascript" src="../Scripts/Aulas/Aula09.js"></script>
+</head>
+<body>
+    <h1>Seletores de formulario</h1>
+    <div style="margin: 50px 50px 50px 50px;background-color: #DDDDDD">
+        <div style="margin: 20px 20px 20px 20px">
+            <form>
+                <div>
+                    <label>Texto: </label>
+                    <input type="text" />
+                </div>
+                <br><br>
+                <div>
+                    <label>Radio: </label>
+                    <input type="radio" name="sexo" value="masc" checked> Masculino
+                    <input type="radio" name="sexo" value="femi"> Feminino
+                </div>
+                <br><br>
+
+                <div>
+                    <label>Checkbox</label>
+                    <input type="checkbox" name="web" value="css">CSS
+                    <input type="checkbox" name="web" value="js" checked>JS
+                    <input type="checkbox" name="web" value="jquery" checked>Jquery
+                </div>
+                <br><br>
+                <div>
+                    <label>Páis</label>
+                    <select>
+                        <option value="brasil">Brasil</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="peru">Peru</option>
+                        <option value="chile">Chile</option>
+                    </select>
+                </div>
+                <br />
+                <br />
+                <div>
+                    <input type="file" name="arquivo" accept="image/*">
+                </div>
+                <br />
+                <br />
+                <div>
+                    <label> Area de texto</label><br />
+                    <textarea rows="5" cols="50"></textarea>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                    <input type="button" value="Button" />
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

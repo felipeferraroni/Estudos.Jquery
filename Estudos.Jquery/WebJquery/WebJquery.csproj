@@ -66,10 +66,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aulas\Aula09.html" />
+    <Content Include="Aulas\Aula08.html" />
+    <Content Include="Aulas\Aula07.html" />
+    <Content Include="Aulas\Aula06.html" />
+    <Content Include="Aulas\Aula05.html" />
     <Content Include="Aulas\Aula04.html" />
     <Content Include="Aulas\Aula03.html" />
     <Content Include="Aulas\Aula02.html" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\Aulas\Aula08.js" />
+    <Content Include="Scripts\Aulas\Aula09.js" />
+    <Content Include="Scripts\Aulas\Aula07.js" />
+    <Content Include="Scripts\Aulas\Aula06.js" />
+    <Content Include="Scripts\Aulas\Aula05.js" />
     <Content Include="Scripts\Aulas\Aula04.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
