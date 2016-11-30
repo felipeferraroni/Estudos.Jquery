@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aulas\Aula11.html" />
     <Content Include="Aulas\Aula10.html" />
     <Content Include="Aulas\Aula09.html" />
     <Content Include="Aulas\Aula08.html" />
@@ -79,6 +80,7 @@
     <Content Include="Imagens\img2.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\Aulas\Aula08.js" />
+    <Content Include="Scripts\Aulas\Aula11.js" />
     <Content Include="Scripts\Aulas\Aula10.js" />
     <Content Include="Scripts\Aulas\Aula09.js" />
     <Content Include="Scripts\Aulas\Aula07.js" />
