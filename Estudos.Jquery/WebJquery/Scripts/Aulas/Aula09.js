@@ -1,23 +1,36 @@
-﻿/* Aula 04 de Java Script */
+﻿/* Aula 09 de Java Script */
 
 $(document).ready(function () {
 
-    // Procurando Atributo
-    $("a[name]").css("background-color", "#00ff7f");
+    // seletor de input
+    $(":button").click(function () {
 
-    // Procura atributo com valor
-    $("a:not([name=menu])").css("font-size", "14pt");
+        // seletor de input
+        $(":input").css("border", "3px solid blue");
 
-    // Procura atributo com valor
-    $("a[name=menu]").css("background-color", "#c0c0c0");
+        // seletor de input
+        $(":password").css("border", "3px solid red");
 
-    // Contem no atributo
-    $("a[href*=Scripts]").css("background-color", "#ffff00");
+        // seletor de input
+        $(":radio").parent().css("border", "3px solid green");
 
-    // Termina
-    $("a[href$=js]").css("color", "#000080");
+        // Checkbox
+        $(":checkbox").parent().css("border", "3px solid yellow");
 
-    // Começa
-    $("a[href^=mailto]").css("color", "#FFFFFF");
+        // seletor de input
+        $(":selected").css("border", "3px solid violet");
+
+        // seletor de input
+        $("textarea").css("border", "3px solid aquamarine");
+
+        // seletor de input
+        $(":file").css("border", "3px solid brown");
+
+        // seletor de input
+        $(":disabled").css("border", "3px solid coral");
+
+        // seletor de input
+        $(":checked").prev().css("border", "3px solid red");
+    });
 
 });
